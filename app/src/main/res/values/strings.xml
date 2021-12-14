@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Prianly - Find Lyrics for Your Favorite Song</string>
+    <string name="home">Home</string>
+    <string name="list_lyrics">List Lyrics</string>
+    <string name="account">Account</string>
+    <string name="hello_prianly_lovers">Hello, Prianly Lovers !</string>
+    <string name="pesan_terakhir">Pesan Terakhir</string>
+    <string name="lyodra">Lyodra</string>
+    <string name="akad">Akad</string>
+    <string name="payung_teduh">Payung Teduh</string>
+    <string name="cukup_tau">Cukup Tau</string>
+    <string name="rizky_febian">Rizky Febian</string>
+    <string name="ashilla">Ashilla</string>
+    <string name="tuyu">TUYU</string>
+    <string name="if_there_was_an_endpoint">If there was an Endpoint.</string>
+    <string name="my_favorite">My Favorite</string>
+    <string name="me_and_you">Me and You</string>
+    <string name="album">Album</string>
+    <string name="About">About</string>
+    <string name="hellogoodbye">Hellogoodbye</string>
+    <string name="baby_it_s_fact">Baby, it\'s fact</string>
+    <string name="super_junior">Super Junior</string>
+    <string name="black_suit">Black Suit</string>
+    <string name="leehi">LeeHi</string>
+    <string name="only">Only</string>
+    <string name="jungkook">Jungkook</string>
+    <string name="still_with_you">Still With You</string>
+    <string name="popular_song_s">Popular Song\'s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

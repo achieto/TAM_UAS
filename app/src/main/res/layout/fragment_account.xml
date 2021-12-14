@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/prianly"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginStart="320dp"
+            android:src="@drawable/ic_logo" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAccount"
+            android:layout_marginTop="4dp"
+            android:scaleType="centerCrop"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_profil"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAM"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:orientation="vertical"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_baseline_favorite_24" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="My Favorite"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp">
+
+            <ImageView
+                android:src="@drawable/ic_baseline_info_24"
+                android:layout_width="35dp"
+                android:layout_height="35dp"/>
+
+            <Button
+                android:id="@+id/AboutBtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="About"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/light_white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
